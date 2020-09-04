@@ -19,13 +19,13 @@
 				break;
 			}
 		}
-		$chatline.value=newchat;
+		$chatline.value=newchat.substring(0,240);
 	});
 	
 	function wordSearch(key){
 		var index=Math.floor(wordsArray.length/2);//配列内の今見ている位置
 		var diff=Math.floor(wordsArray.length/2);//大小によって移動する幅
-		while (true){
+		while (true){//二分探索
 			diff= diff/2<1 ? 1 : Math.floor(diff/2);
 			if(wordsArray[index-1]>=key){
 				index-=diff;

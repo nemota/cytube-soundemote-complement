@@ -8,6 +8,13 @@
 
 ③Tabキーを押すと、音声エモート名がいい感じに補完される
 
+### 使い方(毎回貼り付けるのがダルい場合)
+①Tampermonkeyなどをインストールする(ググって下さい)
+
+②[これ](https://greasyfork.org/ja/scripts/421186-cytube-soundemote-complement)をインストールする
+
+③これで、Synchtube Premiumが入っているチャンネルでは動作するはずです　動かない場合、チャンネルのスクリプトを常に許可するようにしてリロードしてみて下さい
+
 ### 注意事項
 ・Synchtube Premiumの効果音リストから補完対象一覧を引っ張ってくるのでSynchtube Premiumに依存します
 
